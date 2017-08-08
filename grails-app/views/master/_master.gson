@@ -1,0 +1,7 @@
+import bindtosubclassexample.Master
+
+model {
+	Master master
+}
+
+json g.render(master, [expand: ['details']])

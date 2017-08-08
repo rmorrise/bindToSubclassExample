@@ -1,0 +1,8 @@
+import bindtosubclassexample.Master
+
+model {
+	Iterable<Master> masterList
+}
+
+json tmpl.master(masterList ?: [])
+
